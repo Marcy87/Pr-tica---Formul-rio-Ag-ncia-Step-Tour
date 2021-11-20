@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-01.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Agência Step Tour</h1>
+        </header>
+        <main>
+            <article>
+                <h2>
+                    Bem-vindo! Agende conosco sua experiência marcante!
+                </h2>
+                <br>
+                <p>
+                    Oferecemos as seguintes vivências:
+                </p>
+
+                <ul id="bold">
+                    <li>jantar romântico á luz de velas</li>
+                    <li>passeio de barco com paradas em praias paradisiacas</li>
+                    <li>trilhas guiadas (com opção de rapel)</li>
+                    <li>mergulho em águas cristalinas</li>
+                </ul>
+
+            </article>
+
+            <div class="centrado">
+                <form id="form1">
+                    <fieldset>
+                        <legend>Dados escolhidos</legend>
+
+                        <p>
+                            <label for="data" class="align">Data:</label>
+                            <input type="date" name="data" id="data">
+                        </p>
+                        <p>
+                            <label for="name" class="align">Nome:</label>
+                            <input type="text" name="name" id="name">
+                        </p>
+                        <p>
+                            <label for="acompanhantes" class="align">Acompanhantes:</label>
+                            <input type="checkbox" name="acompanhantes" id="acompanhantes">
+                            <span id="menspan"></span>
+                        </p>
+                            
+                        <p>
+                            <strong>Passeios escolhidos:</strong>
+                        </p>
+                        <ul>
+                            <li><input type="checkbox" name="escolha" id="jantar"><label>jantar romântico á luz de
+                                    velas</label></li>
+                            <li><input type="checkbox" name="escolha" id="passeio"><label>passeio de barco com paradas em
+                                    praias paradisiacas</label></li>
+                            <li><input type="checkbox" name="escolha" id="trilhas"><label>trilhas guiadas (com opção de
+                                    rapel</label>
+                            </li>
+                            <li><input type="checkbox" name="escolha" id="mergulho"><label>mergulho em águas
+                                    cristalinas</label></li>
+                        </ul>
+                        <input type="radio" name="btnpag" id="btnres" value="1"><label for="btnres">Reservar</label>
+                        <input type="radio" name="btnpag" id="btnpag" value="2"><label for="btnpag">Pago</label>
+
+
+                        <div class="button">
+                            <button type="button" name="button" id="btnreservaroupago">
+                                <p id="escreva"></p>
+                            </button>
+                            <button type="reset">Limpar</button>
+                            <button type="button"><a href="../homework-18/index1.html" class="decor">Atualizar</a></button>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <form id="form2">
+                    <fieldset class="left">
+                        <legend>Resumo do pedido</legend>
+                        <p id="reservaroupago" class="bold"></p>
+                        <p id="datares"></p><br>
+                        <p id="nomeres"></p><br>
+                        <p id="acomresumo"></p><br>
+                        <p id="pasEscPrimeiraescolha"></p>
+                        <p id="pasEscSegundaescolha"></p>
+                        <p id="pasEscTerceiraescolha"></p>
+                        <p id="pasEscQuartaescolha"></p>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            &copy; Autor: Marcello Di Silvestro E-mail: <a href="mailto:marcellodisilvestro@outlook.com">marcellodisilvestro@outlook.com</a>
+        </footer>
+
+    </div>
+
+    <script src="js/script-1.js"></script>
+
+</body>
+
+</html>

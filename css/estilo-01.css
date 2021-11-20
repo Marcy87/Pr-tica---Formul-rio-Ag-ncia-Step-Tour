@@ -1,0 +1,137 @@
+* {
+    margin: 0 auto;
+}
+body {
+    background: url(../imagens/fundo-de-ferias.jpg) center top;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    text-align: center;
+    padding: 2%;
+}
+
+h1 {
+    text-shadow: 2px 2px 10px black;
+    font-size: 3em;
+}
+
+.centrado {
+    margin: 8% 0 10% 0.5%;
+}
+
+/*ARTICLE*/
+article {
+    margin-left: 2%;
+    line-height: 40px;
+    font-size: 1.2em;
+}
+
+h2 {
+    display: block;
+    background-image: linear-gradient(to top, rgb(0, 0, 136), rgb(143, 143, 143));
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+}
+
+#bold{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/*PRIMEIRO FORMULÁRIO*/
+
+#form1 {
+    z-index: 0;
+    width: 90%;
+}
+
+fieldset {
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px blue, 5px 10px 20px rgba(0, 0, 0, 0.5)inset;
+    padding: 10%;
+    line-height: 25px;
+}
+
+legend {
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px rgb(136, 134, 134);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0 0 15px blue, 5px 5px 20px rgb(255, 255, 255, 0.5)inset;
+}
+
+input, label {
+    margin-left: 5px;
+}
+
+label {
+    line-height: 40px;
+}
+
+.align {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    font-size: 1.5em;
+    margin: 10px 0 0 10px;
+    background-image: linear-gradient(to top, rgb(133, 133, 133), blue);
+    color: white;
+    box-shadow: 2px 2px 10px blue, 2px 2px 5px rgba(0, 0, 0, 0.5)inset;
+    cursor: pointer;;
+}
+
+button:hover {
+    box-shadow: 2px 2px 10px red, 0px 0px 10px rgba(0, 0, 0, 0.8)inset;
+    transform: translateY(10px);
+    transition: transform 0.2s linear;
+}
+
+.decor {
+    text-decoration: none;
+    color: white;
+}
+
+/*SEGUNDO FORMULÁRIO*/
+#form2 {
+    width: 15%;
+    position: absolute;
+    top: 540px;
+    right: 530px;
+    z-index: 1;
+}
+
+.left {
+    height: 420px;
+    background-image: linear-gradient(to top, rgb(252, 225, 168), rgb(247, 241, 162));
+}
+
+.bold {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/*FOOTER*/
+footer {
+    clear: both;
+    text-align: center;
+    padding: 2%;
+}
